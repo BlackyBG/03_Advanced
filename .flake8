@@ -1,0 +1,3 @@
+[flake8]
+# Set the maximum allowed line length to 300 characters
+max-line-length = 300
