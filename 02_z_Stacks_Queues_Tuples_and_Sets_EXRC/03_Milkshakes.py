@@ -15,7 +15,7 @@ while milkshake < 5 and chocolate_list and milk_cups:
         if milk > 0:
             milk_cups.appendleft(milk)
         continue
-    
+
     if chocolate == milk:
         milkshake += 1
     else:
@@ -28,13 +28,13 @@ else:
     print("Not enough milkshakes.")
 
 if chocolate_list:
-    print(f"Chocolate: ", end='')
+    print("Chocolate: ", end='')
     print(*chocolate_list, sep=', ')
 else:
     print("Chocolate: empty")
 
 if milk_cups:
-    print(f"Milk: ", end='')
+    print("Milk: ", end='')
     print(*milk_cups, sep=', ')
 else:
     print("Milk: empty")
